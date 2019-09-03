@@ -1,5 +1,5 @@
 # Hackintosh ASUS TUF H370-Pro Gaming
-	EFI folder used on my _ASUS TUF H370-Pro Gaming_ Hackintosh build, running macOS Mojave 10.14.x
+EFI folder used on my _ASUS TUF H370-Pro Gaming_ Hackintosh build, running macOS Mojave 10.14.x
 
 --------------------------------------------------------------------------------------------
 
