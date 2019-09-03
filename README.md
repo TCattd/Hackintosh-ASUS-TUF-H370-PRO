@@ -21,4 +21,5 @@ At my blog, at [It's About Attitude](https://itsaboutactitud.wordpress.com/2019/
 
 --------------------------------------------------------------------------------------------
 
-### ¿Questions?. Reach me at [Twitter](https://twitter.com/TCattd/).
+### ¿Questions?.
+Reach me at [Twitter](https://twitter.com/TCattd/).
