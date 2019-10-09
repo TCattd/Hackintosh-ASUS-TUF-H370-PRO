@@ -24,7 +24,7 @@ UEFI/BIOS version: 1502
 --------------------------------------------------------------------------------------------
 
 ### More info
-At my blog: [It's About Attitude](https://itsaboutactitud.wordpress.com/2019/09/03/hackintosh-2019/).
+At my blog: [It's about Attitude](https://itsaboutactitud.wordpress.com/2019/09/03/hackintosh-2019/).
 
 --------------------------------------------------------------------------------------------
 
