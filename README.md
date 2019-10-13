@@ -3,7 +3,7 @@ EFI folder used on my _ASUS TUF H370-Pro Gaming_ Hackintosh build, running macOS
 
 --------------------------------------------------------------------------------------------
 
-### Hardware Specs
+## Hardware Specs
 
 - [x] <b>Board</b>: ASUS TUF H370-Pro Gaming
 - [x] <b>CPU</b>: Intel Core i7-8700 @ 3.2GHz
@@ -15,7 +15,16 @@ EFI folder used on my _ASUS TUF H370-Pro Gaming_ Hackintosh build, running macOS
 
 --------------------------------------------------------------------------------------------
 
-### Extras
+## config.plist
+You will need to generate your own values in the config.plist for the following vars:
+- RtVariables -> MLB
+- SMBIOS -> BoardSerialNumber
+- SMBIOS -> SerialNumber
+- SMBIOS -> SmUUID
+
+--------------------------------------------------------------------------------------------
+
+## Extras
 The folder Extras contains a copy of the motherboard settings exported from the same UEFI/BIOS configuration utility.
 You can use that file (CMO) to import the setting from an USB drive while in the UEFI/BIOS configuration, inside Tools (in Advance Mode).
 
@@ -23,10 +32,22 @@ UEFI/BIOS version: 1502
 
 --------------------------------------------------------------------------------------------
 
-### More info
+## More info
 At my blog: [It's about Attitude](https://itsaboutactitud.wordpress.com/2019/09/03/hackintosh-2019/).
 
 --------------------------------------------------------------------------------------------
 
-### Questions?.
+## Questions?.
 Reach me at [Twitter](https://twitter.com/TCattd/).
+
+--------------------------------------------------------------------------------------------
+
+## Changelog
+### 2019-10-13
+* macOS Mojave Vanilla Installation. [Use this guide](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/) to prepare your USB Installer.
+
+### 2019-09-04
+* Added UEFI/BIOS settings.
+
+### 2019-09-03
+* Initial release for macOS Mojave 10.14.x
