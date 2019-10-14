@@ -26,7 +26,7 @@ You will need to generate your own values in the config.plist for the following 
 
 ## Extras
 The folder Extras contains a copy of the motherboard settings exported from the same UEFI/BIOS configuration utility.
-You can use that file (CMO) to import the setting from an USB drive while in the UEFI/BIOS configuration, inside Tools (in Advance Mode).
+You can use that file (CMO) to import the setting from an USB drive while in the UEFI/BIOS configuration, inside Tools (in Advanced Mode).
 
 UEFI/BIOS version: 1502
 
