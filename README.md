@@ -1,17 +1,17 @@
-# Hackintosh Intel Core i7-8700 + ASUS TUF H370-Pro Gaming
-EFI folder used on my _ASUS TUF H370-Pro Gaming_ Hackintosh build (Vanilla), running macOS Mojave 10.14.x
+# Hackintosh ASUS TUF H370-Pro Gaming + Intel Core i7-8700 + Gigabyte AMD Radeon RX 580 4GB
+EFI folder used on my _ASUS TUF H370-Pro Gaming_ Hackintosh build (Vanilla), running macOS Catalina 10.15.x
 
 --------------------------------------------------------------------------------------------
 
 ## Hardware Specs
 
-- [x] <b>Board</b>: ASUS TUF H370-Pro Gaming
+- [x] <b>Board</b>: [ASUS TUF H370-Pro Gaming](https://www.asus.com/Motherboards/TUF-H370-PRO-GAMING-WI-FI/)
 - [x] <b>CPU</b>: Intel Core i7-8700 @ 3.2GHz
-- [x] <b>GPU</b>: Gigabyte AMD Radeon RX 580 4GB
+- [x] <b>GPU</b>: [Gigabyte AMD Radeon RX 580 4GB](https://www.gigabyte.com/Graphics-Card/GV-RX580GAMING-4GD-rev-10-11)
 - [x] <b>RAM</b>: 32GB DDR4 @ 3000MHz Corsair
 - [x] <b>SSD</b>: NVMe PCIe M.2 Crucial 1TB
 - [x] <b>SSD</b>: SATA SSD Crucial 1TB
-- [x] <b>Wifi/Bluetooth</b>: Fenvi FV-T919 Broadcom BCM94360CD
+- [x] <b>Wifi/Bluetooth</b>: [Fenvi FV-T919 Broadcom BCM94360CD](https://www.aliexpress.com/item/32778371977.html)
 
 --------------------------------------------------------------------------------------------
 
@@ -37,16 +37,19 @@ Open Extras/SSDT-UIAC-ALL.dsl and see the comments to know what ports are enable
 --------------------------------------------------------------------------------------------
 
 ## More info
-At my blog: [It's about Attitude](https://itsaboutactitud.wordpress.com/2019/09/03/hackintosh-2019/).
+At my blog: [It's about Attitude](https://itsaboutactitud.wordpress.com/2019/09/03/hackintosh-2019/) (Spanish only).
 
 --------------------------------------------------------------------------------------------
 
 ## Questions?.
-Reach me at [Twitter](https://twitter.com/TCattd/).
+Reach me at [Twitter](https://twitter.com/TCattd/) or by e-mail: esteban (at) attitude.cl
 
 --------------------------------------------------------------------------------------------
 
 ## Changelog
+### 2019-10-30
+* Updated to macOS Catalina 10.15.1 (19B88)
+
 ### 2019-10-18
 * Added a custom SSDT-UIAC-ALL.aml ACPI patch to enable all USB ports.
 
