@@ -46,9 +46,11 @@ It also contains a copy of the SSDT-UIAC-ALL.dsl used to compile the ACPI patch 
 Open Extras/SSDT-UIAC-ALL.dsl and see the comments to know what ports are enabled.
 
 #### EFI USB Install
-A zip file, EFI-20190522-USB-Install-Minimal.zip, with a minimal EFI folder, meant to be used in the USB flash drive to install macOS. Just the bare minimum for it to run the installer in this Hackintosh configuration. Just tested with Mojave. Should work with Catalina (updated to use Clover 5093).
+A zip file, EFI-20190522-USB-Install-Minimal.zip, with a minimal EFI folder, meant to be used in the USB flash drive to install macOS. Just the bare minimum for it to run the installer in this Hackintosh configuration. Mainly tested with Mojave. Should work with Catalina (updated to use Clover 5093).
+
 If the main EFI folder in the repo doesn't let you finish the installation, you can try to use this one in the USB Flashdrive Installer. Not for use in the final installation disk.
-Try the main EFI folder (repo's root) to install Calatina, as i did.
+
+First try the main EFI folder (repo's root) to install Calatina, as i did when transitioning to a Vanilla Hackintosh.
 
 --------------------------------------------------------------------------------------------
 
