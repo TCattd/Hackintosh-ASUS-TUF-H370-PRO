@@ -34,10 +34,6 @@ You will need to generate your own values in the config.plist for the following 
 ## Extras
 The folder Extras contains:
 
-#### EFI USB Install
-A zip file, EFI-20190522-USB-Install-Minimal.zip, with a minimal EFI folder, meant to be used in the USB flash drive to install macOS. Just the bare minimum for it to run the installer in this Hackintosh configuration. Just tested with Mojave. Should work with Catalina.
-If the main EFI folder in the repo doesn't let you finish the installation, you can try to use this one in the USB Flashdrive Installer. Not for use in the final installation disk.
-
 #### Motherboard settings
 A copy of the motherboard settings exported from the same UEFI/BIOS configuration utility.
 You can use that file (CMO) to import the settings from an USB drive while in the UEFI/BIOS configuration, inside Tools (in Advanced Mode).
@@ -48,6 +44,11 @@ UEFI/BIOS version: 1502
 It also contains a copy of the SSDT-UIAC-ALL.dsl used to compile the ACPI patch for Clover to enable all USB ports in without the need of patching everytime Apple releases an update. Many thanks to [RehabMan](https://www.tonymacx86.com/threads/guide-creating-a-custom-ssdt-for-usbinjectall-kext.211311/) and [UtterDisbelief](https://www.tonymacx86.com/threads/a-beginners-guide-to-creating-a-custom-usb-ssdt.272505/) for the guides they put together.
 
 Open Extras/SSDT-UIAC-ALL.dsl and see the comments to know what ports are enabled.
+
+#### EFI USB Install
+A zip file, EFI-20190522-USB-Install-Minimal.zip, with a minimal EFI folder, meant to be used in the USB flash drive to install macOS. Just the bare minimum for it to run the installer in this Hackintosh configuration. Just tested with Mojave. Should work with Catalina (updated to use Clover 5093).
+If the main EFI folder in the repo doesn't let you finish the installation, you can try to use this one in the USB Flashdrive Installer. Not for use in the final installation disk.
+Try the main EFI folder (repo's root) to install Calatina, as i did.
 
 --------------------------------------------------------------------------------------------
 
