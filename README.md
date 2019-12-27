@@ -1,11 +1,11 @@
-# Hackintosh ASUS TUF H370-Pro Gaming + Intel Core i7-8700 + Gigabyte AMD Radeon RX 580 4GB
-EFI folder used on my _ASUS TUF H370-Pro Gaming_ Vanilla Hackintosh build, running macOS Catalina 10.15.x
+# Hackintosh ASUS TUF H370-Pro Gaming (WI-FI) + Intel Core i7-8700 + Gigabyte AMD Radeon RX 580 4GB
+EFI folder used on my _ASUS TUF H370-Pro Gaming (WI-FI)_ Vanilla Hackintosh build, running macOS Catalina 10.15.x
 
 --------------------------------------------------------------------------------------------
 
 ## Hardware Specs
 
-- [x] <b>Board</b>: [ASUS TUF H370-Pro Gaming](https://www.asus.com/Motherboards/TUF-H370-PRO-GAMING-WI-FI/)
+- [x] <b>Board</b>: [ASUS TUF H370-Pro Gaming (WI-FI)](https://www.asus.com/Motherboards/TUF-H370-PRO-GAMING-WI-FI/)
 - [x] <b>CPU</b>: Intel Core i7-8700 @ 3.2GHz
 - [x] <b>GPU</b>: [Gigabyte AMD Radeon RX 580 4GB](https://www.gigabyte.com/Graphics-Card/GV-RX580GAMING-4GD-rev-10-11)
 - [x] <b>RAM</b>: 32GB DDR4 @ 3000MHz Corsair
@@ -38,7 +38,7 @@ The folder Extras contains:
 A copy of the motherboard settings exported from the same UEFI/BIOS configuration utility.
 You can use that file (CMO) to import the settings from an USB drive while in the UEFI/BIOS configuration, inside Tools (in Advanced Mode).
 
-UEFI/BIOS version: 1502
+Current UEFI/BIOS version: 1801
 
 #### USB SSDT
 It also contains a copy of the SSDT-UIAC-ALL.dsl used to compile the ACPI patch for Clover to enable all USB ports in without the need of patching everytime Apple releases an update. Many thanks to [RehabMan](https://www.tonymacx86.com/threads/guide-creating-a-custom-ssdt-for-usbinjectall-kext.211311/) and [UtterDisbelief](https://www.tonymacx86.com/threads/a-beginners-guide-to-creating-a-custom-usb-ssdt.272505/) for the guides they put together.
@@ -65,6 +65,9 @@ Reach me at [Twitter](https://twitter.com/TCattd/) or by e-mail: esteban (at) at
 --------------------------------------------------------------------------------------------
 
 ## Changelog
+### 2019-12-27
+* Updated UEFI BIOS firmware to 1801.
+
 ### 2019-12-13
 * Updated to macOS Catalina 10.15.2 (19C57)
 
