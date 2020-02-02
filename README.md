@@ -6,7 +6,7 @@ EFI folder used on my _ASUS TUF H370-Pro Gaming (WI-FI)_ Vanilla Hackintosh buil
 ## Hardware Specs
 
 - [x] <b>Board</b>: [ASUS TUF H370-Pro Gaming (WI-FI)](https://www.asus.com/Motherboards/TUF-H370-PRO-GAMING-WI-FI/)
-- [x] <b>CPU</b>: [Intel Core i7-8700 @ 3.2 GHz / 4.6 GHz](https://ark.intel.com/content/www/us/en/ark/products/126686/intel-core-i7-8700-processor-12m-cache-up-to-4-60-ghz.html)
+- [x] <b>CPU</b>: [Intel Core i7-8700 Coffe Lake @ 3.2 GHz / 4.6 GHz](https://ark.intel.com/content/www/us/en/ark/products/126686/intel-core-i7-8700-processor-12m-cache-up-to-4-60-ghz.html)
 - [x] <b>GPU</b>: [Gigabyte AMD Radeon RX 580 4GB](https://www.gigabyte.com/Graphics-Card/GV-RX580GAMING-4GD-rev-10-11)
 - [x] <b>RAM</b>: [32GB DDR4 @ 3000MHz (16GB x2) Corsair](https://www.corsair.com/us/en/Categories/Products/Memory/VENGEANCE%C2%AE-LPX-16GB-%281-x-16GB%29-DDR4-DRAM-3000MHz-C16-Memory-Kit---Black/p/CMK16GX4M1D3000C16)
 - [x] <b>SSD</b>: [NVMe PCIe M.2 Crucial 1TB](https://www.crucial.com/usa/en/CT1000P1SSD8)
