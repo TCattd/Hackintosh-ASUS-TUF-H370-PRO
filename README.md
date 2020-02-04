@@ -11,7 +11,7 @@ EFI folder used on my _ASUS TUF H370-Pro Gaming (WI-FI)_ Vanilla Hackintosh buil
 - [x] <b>RAM</b>: [32GB DDR4 @ 3000MHz (16GB x2) Corsair](https://www.corsair.com/us/en/Categories/Products/Memory/VENGEANCE%C2%AE-LPX-16GB-%281-x-16GB%29-DDR4-DRAM-3000MHz-C16-Memory-Kit---Black/p/CMK16GX4M1D3000C16)
 - [x] <b>SSD</b>: [NVMe PCIe M.2 Crucial 1TB](https://www.crucial.com/usa/en/CT1000P1SSD8)
 - [x] <b>SSD</b>: [SATA SSD Crucial 1TB](https://www.crucial.com/usa/en/ct1000bx500ssd1)
-- [x] <b>Wifi/Bluetooth</b>: [Fenvi FV-T919 Broadcom BCM94360CD](https://www.aliexpress.com/item/32778371977.html)
+- [x] <b>Wifi/Bluetooth</b>: [Fenvi FV-T919 Broadcom BCM94360CD](http://en.fenvi.com/en/brand_view.php?id=366)
 
 --------------------------------------------------------------------------------------------
 
