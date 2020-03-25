@@ -65,6 +65,9 @@ Reach me at [Twitter](https://twitter.com/TCattd/) or by e-mail: esteban (at) at
 --------------------------------------------------------------------------------------------
 
 ## Changelog
+### 2020-03-25
+* Updated to macOS Catalina 10.15.4 (19E266)
+
 ### 2020-01-29
 * Updated to macOS Catalina 10.15.3 (19D76)
 
