@@ -16,18 +16,22 @@ EFI folder used on my _ASUS TUF H370-Pro Gaming (WI-FI)_ Vanilla Hackintosh buil
 --------------------------------------------------------------------------------------------
 
 ## How to
-Use the [Hackintosh Vanilla Desktop Guide (Building the USB Installer)](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/building-the-usb-installer) to prepare your USB Flashdrive to install macOS.
+Use the [OpenCore Desktop Guide (Creating the USB)](https://dortania.github.io/OpenCore-Desktop-Guide/) to prepare your USB flashdrive to install macOS.
 
-Then mount the USB Flashdrive's EFI partition (with Clover Configurator or EFI Mounter) and use the EFI folder in this repo instead of following the rest of the guide.
+Then mount the USB flashdrive's EFI partition (with [EFI Mounter](https://www.tonymacx86.com/resources/efi-mounter-v3-1.447/) or another way) and use the EFI folder in this repo instead of following the rest of the guide.
 
 --------------------------------------------------------------------------------------------
 
-## config.plist
+## config.plist PlatformInfo
 You will need to generate your own values in the config.plist for the following vars:
-- RtVariables -> MLB
-- SMBIOS -> BoardSerialNumber
-- SMBIOS -> SerialNumber
-- SMBIOS -> SmUUID
+
+- Type: PlatformInfo -> Generic -> SystemProductName
+- Serial: PlatformInfo -> Generic -> SystemSerialNumber
+- Board Serial: PlatformInfo -> Generic -> MLB
+- SmUUID: PlatformInfo -> Generic -> SystemUUID
+- ROM or NIC MAC address: PlatformInfo -> Generic -> ROM
+
+Follow the instructions at the [OpenCore Desktop Guide (Coffe Lake -> SMBIOS -> PlatformInfo)](https://dortania.github.io/OpenCore-Desktop-Guide/config.plist/coffee-lake.html#platforminfo) on how to proceed with that. It's highly recommended to use [ProperTree](https://github.com/corpnewt/ProperTree) to edit your config.plist
 
 --------------------------------------------------------------------------------------------
 
@@ -40,10 +44,24 @@ You can use that file (CMO) to import the settings from an USB drive while in th
 
 Current UEFI/BIOS version: 1801
 
-#### USB SSDT
-It also contains a copy of the SSDT-UIAC-ALL.dsl used to compile the ACPI patch for Clover to enable all USB ports in without the need of patching everytime Apple releases an update. Many thanks to [RehabMan](https://www.tonymacx86.com/threads/guide-creating-a-custom-ssdt-for-usbinjectall-kext.211311/) and [UtterDisbelief](https://www.tonymacx86.com/threads/a-beginners-guide-to-creating-a-custom-usb-ssdt.272505/) for the guides they put together.
+#### SSDT
+It also contains a copy of the SSDT-UIAC-ALL.dsl used to compile the ACPI patch for OpenCore/Clover to enable all USB ports in without the need of patching everytime Apple releases an update. Many thanks to [RehabMan](https://www.tonymacx86.com/threads/guide-creating-a-custom-ssdt-for-usbinjectall-kext.211311/) and [UtterDisbelief](https://www.tonymacx86.com/threads/a-beginners-guide-to-creating-a-custom-usb-ssdt.272505/) for the guides they put together.
 
 Open Extras/SSDT-UIAC-ALL.dsl and see the comments to know what ports are enabled.
+
+It also contains all other .dsl files used for generating the .aml ACPI patches included in the EFI folder.
+
+### EFI Clover
+The latest working EFI based on Clover, used before migrating to OpenCore.
+You can still use it if you want. Just follow the [Hackintosh Vanilla Desktop Guide (Building the USB Installer)](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/building-the-usb-installer) to prepare your USB Flashdrive to install macOS, and use this EFI folder instead.
+
+You will need to generate your own values in the config.plist for the following vars:
+- RtVariables -> MLB
+- SMBIOS -> BoardSerialNumber
+- SMBIOS -> SerialNumber
+- SMBIOS -> SmUUID
+
+Be warned: this EFI folder based on Clover will not be updated anymore by me.
 
 #### EFI USB Install
 A zip file, EFI-20190522-USB-Install-Minimal.zip, with a minimal EFI folder, meant to be used in the USB flash drive to install macOS. Just the bare minimum for it to run the installer in this Hackintosh configuration. Mainly tested with Mojave. Should work with Catalina (updated to use Clover 5093).
