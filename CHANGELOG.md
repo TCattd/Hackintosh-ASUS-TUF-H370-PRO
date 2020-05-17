@@ -1,6 +1,6 @@
 # Changelog
 ## 2020-05-17
-* Migrated from Clover to OpenCore 0.5.8. New EFI folder should be quickly and fully replaceable (just mind the PlatformInfo part at the README) if you perform a Vanilla macOS installation before, and always maintained SIP enabled (did no system modifications at all).
+* Migrated from Clover to OpenCore 0.5.8. New EFI folder should be quickly and fully replaceable (just mind the PlatformInfo part at the README) if you performed a Vanilla macOS installation before, and always maintained SIP enabled (did no system modifications at all).
 
 ## 2020-04-11
 * Added EmuVariableUefi.efi for [issue 2](https://github.com/TCattd/Hackintosh-ASUS-TUF-H370-PRO/issues/2) (Thanks @bricco1981).
