@@ -31,7 +31,7 @@ You will need to generate your own values in the config.plist for the following 
 - SmUUID: PlatformInfo -> Generic -> SystemUUID
 - ROM or NIC MAC address: PlatformInfo -> Generic -> ROM
 
-Follow the instructions at the [OpenCore Desktop Guide (Coffe Lake -> SMBIOS -> PlatformInfo)](https://dortania.github.io/OpenCore-Desktop-Guide/config.plist/coffee-lake.html#platforminfo) on how to proceed with that. It's highly recommended to use [ProperTree](https://github.com/corpnewt/ProperTree) to edit your config.plist
+Follow the instructions at the [OpenCore Desktop Guide (Coffe Lake -> SMBIOS -> PlatformInfo)](https://dortania.github.io/OpenCore-Desktop-Guide/config.plist/coffee-lake.html#platforminfo) on how to proceed with that. Although it is not mandatory, it's highly recommended to use [ProperTree](https://github.com/corpnewt/ProperTree) to edit your config.plist
 
 --------------------------------------------------------------------------------------------
 
@@ -51,7 +51,7 @@ Open Extras/SSDT-UIAC-ALL.dsl and see the comments to know what ports are enable
 
 It also contains all other .dsl files used for generating the .aml ACPI patches included in the EFI folder.
 
-### EFI Clover
+#### EFI Clover
 The latest working EFI based on Clover, used before migrating to OpenCore.
 You can still use it if you want. Just follow the [Hackintosh Vanilla Desktop Guide (Building the USB Installer)](https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/building-the-usb-installer) to prepare your USB Flashdrive to install macOS, and use this EFI folder instead.
 
