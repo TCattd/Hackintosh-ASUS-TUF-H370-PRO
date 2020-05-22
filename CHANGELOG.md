@@ -1,4 +1,8 @@
 # Changelog
+## 2020-05-22
+* Removed XhciPortLimit patch. Not needed, because we already have a working ACPI patch for our USB ports (SSDT-UIAC-ALL.aml).
+* Cleaned up the EFI/OC/Resources/Audio folder for freeing some space. Just one wav needed for the boot-chime, [as described here](https://dortania.github.io/OpenCore-Desktop-Guide/extras/gui.html#setting-up-a-boot-chime).
+
 ## 2020-05-17
 * Migrated from Clover to OpenCore 0.5.8. New EFI folder should be a quickly and fully replaceable, if you performed a Vanilla macOS installation before and always maintained SIP enabled (did no system modifications at all). Just mind the PlatformInfo part at the README.md. You can re-use your generated values for Clover there too.
 

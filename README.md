@@ -61,7 +61,7 @@ You will need to generate your own values in the config.plist for the following 
 - SMBIOS -> SerialNumber
 - SMBIOS -> SmUUID
 
-Be warned: this EFI folder based on Clover will not be updated anymore by me.
+Be warned: this Clover based EFI folder will not be updated anymore by me.
 
 #### EFI USB Install
 A zip file, EFI-20190522-USB-Install-Minimal.zip, with a minimal EFI folder, meant to be used in the USB flash drive to install macOS. Just the bare minimum for it to run the installer in this Hackintosh configuration. Mainly tested with Mojave. Should work with Catalina (updated to use Clover 5093).
