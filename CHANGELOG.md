@@ -1,4 +1,7 @@
 # Changelog
+## 2020-05-25
+* Updated UEFI BIOS firmware to 1901.
+
 ## 2020-05-22
 * Removed XhciPortLimit patch. Not needed, because we already have a working ACPI patch for our USB ports (SSDT-UIAC-ALL.aml).
 * Cleaned up the EFI/OC/Resources/Audio folder for freeing some space. Just one wav needed for the boot-chime, [as described here](https://dortania.github.io/OpenCore-Desktop-Guide/extras/gui.html#setting-up-a-boot-chime).

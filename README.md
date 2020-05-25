@@ -42,7 +42,7 @@ The folder Extras contains:
 A copy of the motherboard settings exported from the same UEFI/BIOS configuration utility.
 You can use that file (CMO) to import the settings from an USB drive while in the UEFI/BIOS configuration, inside Tools (in Advanced Mode).
 
-Current UEFI/BIOS version: 1801
+Current UEFI/BIOS version: 1901
 
 #### SSDT
 It also contains a copy of the SSDT-UIAC-ALL.dsl used to compile the ACPI patch for OpenCore/Clover to enable all USB ports in without the need of patching everytime Apple releases an update. Many thanks to [RehabMan](https://www.tonymacx86.com/threads/guide-creating-a-custom-ssdt-for-usbinjectall-kext.211311/) and [UtterDisbelief](https://www.tonymacx86.com/threads/a-beginners-guide-to-creating-a-custom-usb-ssdt.272505/) for the guides they put together.
