@@ -1,4 +1,7 @@
 # Changelog
+## 2020-06-01
+* Added FileVault support.
+
 ## 2020-05-25
 * Updated UEFI BIOS firmware to 1901.
 
