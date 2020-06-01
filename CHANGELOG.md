@@ -1,6 +1,8 @@
 # Changelog
 ## 2020-06-01
+* Updated OpenCore to 0.5.9
 * Added FileVault support.
+* Updated Kexts.
 
 ## 2020-05-25
 * Updated UEFI BIOS firmware to 1901.
