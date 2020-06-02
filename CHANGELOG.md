@@ -3,6 +3,7 @@
 * Updated OpenCore to 0.5.9
 * Added FileVault support.
 * Updated Kexts.
+* Updated to macOS Catalina 10.15.5 (19F101).
 
 ## 2020-05-25
 * Updated UEFI BIOS firmware to 1901.
