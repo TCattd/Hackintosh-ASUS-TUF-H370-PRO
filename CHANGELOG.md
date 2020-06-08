@@ -1,4 +1,7 @@
 # Changelog
+## 2020-06-08
+* Configured and added a proper [USB Mapping](https://dortania.github.io/USB-Map-Guide/) kext.
+
 ## 2020-06-01
 * Updated OpenCore to 0.5.9
 * Added FileVault support.
