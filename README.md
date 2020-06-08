@@ -20,6 +20,8 @@ Use the [OpenCore Desktop Guide (Creating the USB)](https://dortania.github.io/O
 
 Then mount the USB flashdrive's EFI partition (with [EFI Mounter](https://www.tonymacx86.com/resources/efi-mounter-v3-1.447/) or another way) and use the EFI folder in this repo instead of following the rest of the guide.
 
+Don't forget to update and import the UEFI/BIOS settings provided in this repo before begin the installation.
+
 --------------------------------------------------------------------------------------------
 
 ## config.plist PlatformInfo
@@ -73,7 +75,7 @@ First try the main EFI folder (repo's root) to install Calatina, as i did when t
 --------------------------------------------------------------------------------------------
 
 ## More info
-At my blog: [It's about Attitude](https://itsaboutactitud.wordpress.com/2019/09/03/hackintosh-2019/) (Spanish only).
+At my blog: [It's about attitude](https://itsaboutactitud.wordpress.com/2019/09/03/hackintosh-2019/) (Spanish only).
 
 --------------------------------------------------------------------------------------------
 
