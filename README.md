@@ -5,22 +5,24 @@ EFI folder used on my _ASUS TUF H370-Pro Gaming (WI-FI)_ Vanilla Hackintosh buil
 
 ## Hardware Specs
 
-- [x] <b>Board</b>: [ASUS TUF H370-Pro Gaming (WI-FI)](https://www.asus.com/Motherboards/TUF-H370-PRO-GAMING-WI-FI/)
-- [x] <b>CPU</b>: [Intel Core i7-8700 Coffe Lake @ 3.2 GHz / 4.6 GHz](https://ark.intel.com/content/www/us/en/ark/products/126686/intel-core-i7-8700-processor-12m-cache-up-to-4-60-ghz.html)
-- [x] <b>GPU</b>: [Gigabyte AMD Radeon RX 580 4GB](https://www.gigabyte.com/Graphics-Card/GV-RX580GAMING-4GD-rev-10-11)
-- [x] <b>RAM</b>: [32GB DDR4 @ 3000MHz (16GB x2) Corsair](https://www.corsair.com/us/en/Categories/Products/Memory/VENGEANCE%C2%AE-LPX-16GB-%281-x-16GB%29-DDR4-DRAM-3000MHz-C16-Memory-Kit---Black/p/CMK16GX4M1D3000C16)
-- [x] <b>SSD</b>: [NVMe PCIe M.2 WD_Black SN750 1TB](https://shop.westerndigital.com/products/internal-drives/wd-black-sn750-nvme-ssd#WDS100T3X0C)
-- [x] <b>SSD</b>: [NVMe PCIe M.2 Crucial P1 1TB](https://www.crucial.com/ssd/p1/ct1000p1ssd8)
-- [x] <b>Wifi/Bluetooth</b>: [Fenvi FV-T919 Broadcom BCM94360CD](http://en.fenvi.com/en/brand_view.php?id=366)
+- [x] **Board**: [ASUS TUF H370-Pro Gaming (WI-FI)](https://www.asus.com/Motherboards/TUF-H370-PRO-GAMING-WI-FI/)
+- [x] **CPU**: [Intel Core i7-8700 Coffe Lake @ 3.2 GHz / 4.6 GHz](https://ark.intel.com/content/www/us/en/ark/products/126686/intel-core-i7-8700-processor-12m-cache-up-to-4-60-ghz.html)
+- [x] **GPU**: [Gigabyte AMD Radeon RX 580 4GB](https://www.gigabyte.com/Graphics-Card/GV-RX580GAMING-4GD-rev-10-11)
+- [x] **RAM**: [32GB DDR4 @ 3000MHz (16GB x2) Corsair](https://www.corsair.com/us/en/Categories/Products/Memory/VENGEANCE%C2%AE-LPX-16GB-%281-x-16GB%29-DDR4-DRAM-3000MHz-C16-Memory-Kit---Black/p/CMK16GX4M1D3000C16)
+- [x] **SSD**: [NVMe PCIe M.2 WD_Black SN750 1TB](https://shop.westerndigital.com/products/internal-drives/wd-black-sn750-nvme-ssd#WDS100T3X0C)
+- [x] **SSD**: [NVMe PCIe M.2 Crucial P1 1TB](https://www.crucial.com/ssd/p1/ct1000p1ssd8)
+- [x] **Wifi/Bluetooth**: [Fenvi FV-T919 Broadcom BCM94360CD](http://en.fenvi.com/en/brand_view.php?id=366)
 
 --------------------------------------------------------------------------------------------
 
 ## How to
-Use the [OpenCore Desktop Guide (Creating the USB)](https://dortania.github.io/OpenCore-Desktop-Guide/) to prepare your USB flashdrive to install macOS.
+Use the [OpenCore Install Guide (Creating the USB)](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/) to prepare your USB flashdrive to install macOS.
 
 Then mount the USB flashdrive's EFI partition (with [EFI Mounter](https://www.tonymacx86.com/resources/efi-mounter-v3-1.447/) or another way) and use the EFI folder in this repo instead of following the rest of the guide.
 
-Don't forget to update and import the UEFI/BIOS settings provided in this repo before begin the installation.
+Don't forget to update and import the UEFI/BIOS settings provided in this repo **before** beginning the installation.
+
+Keep in mind that for this EFI folder to properly boot and work, you need to have at least the same Motherboard, CPU and GPU that i have in my build. If you don't have those same three main specs as i do, you will have to do some edits to your OpenCore's config file. To know more, please, follow (Dortania's guide)[https://dortania.github.io/OpenCore-Install-Guide/].
 
 --------------------------------------------------------------------------------------------
 
