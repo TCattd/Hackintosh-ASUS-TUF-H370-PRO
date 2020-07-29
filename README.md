@@ -35,7 +35,7 @@ You will need to generate your own values in the config.plist for the following 
 - SmUUID: PlatformInfo -> Generic -> SystemUUID
 - ROM or NIC MAC address: PlatformInfo -> Generic -> ROM
 
-Follow the instructions at the [OpenCore Desktop Guide (Coffe Lake -> SMBIOS -> PlatformInfo)](https://dortania.github.io/OpenCore-Desktop-Guide/config.plist/coffee-lake.html#platforminfo) on how to proceed with that. Although it is not mandatory, it's highly recommended to use [ProperTree](https://github.com/corpnewt/ProperTree) to edit your config.plist
+Follow the instructions at the [OpenCore Install Guide (Configs -> Coffe Lake -> PlatformInfo)](https://dortania.github.io/OpenCore-Install-Guide/config.plist/coffee-lake.html#platforminfo) on how to proceed with that. Although it is not mandatory, it's highly recommended to use [ProperTree](https://github.com/corpnewt/ProperTree) to edit your config.plist
 
 --------------------------------------------------------------------------------------------
 
