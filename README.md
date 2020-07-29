@@ -22,7 +22,7 @@ Then mount the USB flashdrive's EFI partition (with [EFI Mounter](https://www.to
 
 Don't forget to update and import the UEFI/BIOS settings provided in this repo **before** beginning the installation.
 
-Keep in mind that for this EFI folder to properly boot and work, you need to have at least the same Motherboard, CPU and GPU that i have in my build. If you don't have those same three main specs as i do, you will have to do some edits to your OpenCore's config file. To know more, please, follow (Dortania's guide)[https://dortania.github.io/OpenCore-Install-Guide/].
+Keep in mind that for this EFI folder to properly boot and work, you need to have at least the same Motherboard, CPU and GPU that i have in my build. If you don't have those same three main specs as i do, you will have to do some edits to your OpenCore's config file. To know more, please, follow [Dortania's guide](https://dortania.github.io/OpenCore-Install-Guide/).
 
 --------------------------------------------------------------------------------------------
 
