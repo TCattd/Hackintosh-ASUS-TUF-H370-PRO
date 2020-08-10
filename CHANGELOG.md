@@ -1,4 +1,7 @@
 # Changelog
+## 2020-08-10
+* Updated OpenCore to 0.6.0
+
 ## 2020-07-15
 * Updated to macOS Catalina 10.15.6 (19G73).
 * Removed unnecessary kexts, as this build is using a Fenvi Wifi-Bluetooth combo card and, [according dortania](https://dortania.github.io/Wireless-Buyers-Guide/Kext.html), those removed kexts aren't needed when using a Fenvi card.
