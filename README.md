@@ -10,7 +10,7 @@ EFI folder used on my _ASUS TUF H370-Pro Gaming (WI-FI)_ Vanilla Hackintosh buil
 - [x] **GPU**: [Gigabyte AMD Radeon RX 580 4GB](https://www.gigabyte.com/Graphics-Card/GV-RX580GAMING-4GD-rev-10-11)
 - [x] **RAM**: [32GB DDR4 @ 3000MHz (16GB x2) Corsair](https://www.corsair.com/us/en/Categories/Products/Memory/VENGEANCE%C2%AE-LPX-16GB-%281-x-16GB%29-DDR4-DRAM-3000MHz-C16-Memory-Kit---Black/p/CMK16GX4M1D3000C16)
 - [x] **SSD**: [NVMe PCIe M.2 WD_Black SN750 1TB](https://shop.westerndigital.com/products/internal-drives/wd-black-sn750-nvme-ssd#WDS100T3X0C)
-- [x] **SSD**: [NVMe PCIe M.2 Crucial P1 1TB](https://www.crucial.com/ssd/p1/ct1000p1ssd8)
+- [x] **SSD**: [NVMe PCIe M.2 WD Blue SN550 1TB](https://shop.westerndigital.com/es-la/products/internal-drives/wd-blue-sn550-nvme-ssd#WDS100T2B0C)
 - [x] **Wifi/Bluetooth**: [Fenvi FV-T919 Broadcom BCM94360CD](http://en.fenvi.com/en/brand_view.php?id=366)
 
 --------------------------------------------------------------------------------------------
