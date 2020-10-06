@@ -1,4 +1,7 @@
 # Changelog
+## 2020-10-06
+* Updated OpenCore to 0.6.2
+
 ## 2020-09-14
 * Updated OpenCore to 0.6.1
 
