@@ -46,7 +46,7 @@ The folder Extras contains:
 A copy of the motherboard settings exported from the same UEFI/BIOS configuration utility.
 You can use that file (CMO) to import the settings from an USB drive while in the UEFI/BIOS configuration, inside Tools (in Advanced Mode).
 
-Current UEFI/BIOS version: 1901
+Current UEFI/BIOS version: 2301
 
 #### Legacy Clover EFI
 The latest working EFI based on Clover, used before migrating to OpenCore.
