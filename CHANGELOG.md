@@ -1,5 +1,8 @@
 # Changelog
 ## 2020-10-06
+* Updated OpenCore to 0.6.3
+
+## 2020-10-06
 * Updated OpenCore to 0.6.2
 * Updated UEFI BIOS firmware to 2301.
 
