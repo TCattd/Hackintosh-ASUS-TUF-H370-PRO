@@ -1,5 +1,5 @@
 # Hackintosh ASUS TUF H370-Pro Gaming (WI-FI) + Intel Core i7-8700 + Gigabyte AMD Radeon RX 580 4GB
-EFI folder used on my _ASUS TUF H370-Pro Gaming (WI-FI)_ Vanilla Hackintosh build, running macOS Catalina 10.15.x
+EFI folder used on my _ASUS TUF H370-Pro Gaming (WI-FI)_ Vanilla Hackintosh build, running macOS 11.x Big Sur
 
 --------------------------------------------------------------------------------------------
 
