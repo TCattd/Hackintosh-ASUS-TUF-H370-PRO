@@ -1,5 +1,5 @@
 # Changelog
-## 2020-11-22
+## 2020-12-16
 * Updated to macOS 11.1 Big Sur (20C69).
 * Updated OpenCore to 0.6.4
 
