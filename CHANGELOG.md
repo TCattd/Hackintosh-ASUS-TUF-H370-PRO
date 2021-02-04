@@ -1,29 +1,32 @@
 # Changelog
+## 2021-02-04
+* Updated OpenCore to 0.6.6
+
 ## 2021-02-02
-* Updated to macOS 11.2 Big Sur (20D64).
+* Updated to macOS 11.2 Big Sur (20D64)
 
 ## 2021-01-07
 * Updated OpenCore to 0.6.5
 
 ## 2020-12-16
-* Updated to macOS 11.1 Big Sur (20C69).
+* Updated to macOS 11.1 Big Sur (20C69)
 * Updated OpenCore to 0.6.4
 
 ## 2020-11-22
-* Updated to macOS 11.0.1 Big Sur (120B29).
+* Updated to macOS 11.0.1 Big Sur (120B29)
 
 ## 2020-10-06
 * Updated OpenCore to 0.6.3
 
 ## 2020-10-06
 * Updated OpenCore to 0.6.2
-* Updated UEFI BIOS firmware to 2301.
+* Updated UEFI BIOS firmware to 2301
 
 ## 2020-09-14
 * Updated OpenCore to 0.6.1
 
 ## 2020-08-11
-* Updated UEFI BIOS firmware to 2002.
+* Updated UEFI BIOS firmware to 2002
 
 ## 2020-08-10
 * Updated OpenCore to 0.6.0
