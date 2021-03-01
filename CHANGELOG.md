@@ -1,6 +1,6 @@
 # Changelog
 ## 2021-03-01
-* Applied an OpenCore custom theme based on [LuckyCrack's](/Volumes/EFI/EFI/OC/Resources) work. Many thanks to him. It's his Dark theme, but with an all black background (not grey) and with fonts restored, so you can know what are you selecting. Fonts helps in case if, like me, you have a backup drive with another macOS copy for example. Or when updating macOS, so you know OpenCore selected the proper boot entry between restarts.
+* Applied an OpenCore custom theme based on [LuckyCrack's](https://github.com/LuckyCrack/OpenCore-Themes) work. Many thanks to him. It's his Dark theme, but with an all black background (not grey) and with fonts restored, so you can know what are you selecting. Fonts helps in case if, like me, you have a backup drive with another macOS copy for example. Or when updating macOS, so you know OpenCore selected the proper boot entry between restarts.
 
 ## 2021-02-04
 * Updated OpenCore to 0.6.6
