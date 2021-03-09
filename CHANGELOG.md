@@ -1,4 +1,7 @@
 # Changelog
+## 2021-03-09
+* Updated to macOS 11.2.3 Big Sur (20D91)
+
 ## 2021-03-05
 * Updated to macOS 11.2.2 Big Sur (20D80)
 * Updated OpenCore to 0.6.7
