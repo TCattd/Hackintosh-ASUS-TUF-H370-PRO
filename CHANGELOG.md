@@ -1,4 +1,8 @@
 # Changelog
+## 2021-04-06
+* Updated OpenCore to 0.6.8
+* Reverted to the default Modern Picker included in OpenCore. They changed the Picker again. LuckyCrack themes by this time aren't updated and i just don't have time to make the necessary changes to the modified theme i was using to match OpenCore changes. I'm ok sticking with the default one, really. It doesn't bother me. Perhaps when OpenCore get to 1.0 stable, i will try custom Picker themes again.
+
 ## 2021-03-09
 * Updated to macOS 11.2.3 Big Sur (20D91)
 
