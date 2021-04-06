@@ -69,13 +69,6 @@ It also contains all other .dsl files used for generating the .aml ACPI patches 
 
 SSDT not used on OpenCore. Not needed. OpenCore uses a kext to map the USB ports.
 
-#### Legacy Clover EFI USB Install
-A zip file, EFI-20190522-USB-Install-Minimal.zip, with a minimal EFI folder, meant to be used in the USB flash drive to install macOS. Just the bare minimum for it to run the installer in this Hackintosh configuration. Mainly tested with Mojave. Should work with Catalina (updated to use Clover 5093).
-
-If the main EFI folder in the repo doesn't let you finish the installation, you can try to use this one in the USB Flashdrive Installer. Not for use in the final installation disk.
-
-First try the main EFI folder (repo's root) to install Calatina, as i did when transitioning to a Vanilla Hackintosh.
-
 --------------------------------------------------------------------------------------------
 
 ## More info
