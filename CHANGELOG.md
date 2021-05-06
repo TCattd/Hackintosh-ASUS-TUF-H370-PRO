@@ -1,14 +1,18 @@
 # Changelog
+## 2021-05-06
+* Updated OpenCore to 0.6.9
+* Working with to macOS 11.3.1 Big Sur (20E241)
+
 ## 2021-04-06
 * Updated OpenCore to 0.6.8
 * Reverted to the default Modern Picker included in OpenCore. They changed the Picker again. LuckyCrack themes by this time aren't updated and i just don't have time to make the necessary changes to the modified theme i was using to match OpenCore changes. I'm ok sticking with the default one, really. It doesn't bother me. Perhaps when OpenCore get to 1.0 stable, i will try custom Picker themes again.
 
 ## 2021-03-09
-* Updated to macOS 11.2.3 Big Sur (20D91)
+* Working with macOS 11.2.3 Big Sur (20D91)
 
 ## 2021-03-05
-* Updated to macOS 11.2.2 Big Sur (20D80)
 * Updated OpenCore to 0.6.7
+* Working with macOS 11.2.2 Big Sur (20D80)
 
 ## 2021-03-01
 * Applied an OpenCore custom theme based on [LuckyCrack's work](https://github.com/LuckyCrack/OpenCore-Themes). Many thanks to him. It's his Dark theme, but with an all black background (not grey) and with OpenCore fonts restored, so you can know what are you selecting. Fonts helps in case if, like me, you have a backup drive with another macOS copy for example. Or when updating macOS, so you know OpenCore selected the proper boot entry between restarts.
@@ -17,17 +21,17 @@
 * Updated OpenCore to 0.6.6
 
 ## 2021-02-02
-* Updated to macOS 11.2 Big Sur (20D64)
+* Working with macOS 11.2 Big Sur (20D64)
 
 ## 2021-01-07
 * Updated OpenCore to 0.6.5
 
 ## 2020-12-16
-* Updated to macOS 11.1 Big Sur (20C69)
+* Working with macOS 11.1 Big Sur (20C69)
 * Updated OpenCore to 0.6.4
 
 ## 2020-11-22
-* Updated to macOS 11.0.1 Big Sur (120B29)
+* Working with macOS 11.0.1 Big Sur (120B29)
 
 ## 2020-10-06
 * Updated OpenCore to 0.6.3
@@ -46,7 +50,7 @@
 * Updated OpenCore to 0.6.0
 
 ## 2020-07-15
-* Updated to macOS Catalina 10.15.6 (19G73).
+* Working with macOS Catalina 10.15.6 (19G73).
 * Removed unnecessary kexts, as this build is using a Fenvi Wifi-Bluetooth combo card and, [according dortania](https://dortania.github.io/Wireless-Buyers-Guide/Kext.html), those removed kexts aren't needed when using a Fenvi card.
 
 ## 2020-06-08
@@ -56,7 +60,7 @@
 * Updated OpenCore to 0.5.9
 * Added FileVault support.
 * Updated Kexts.
-* Updated to macOS Catalina 10.15.5 (19F101).
+* Working with macOS Catalina 10.15.5 (19F101).
 
 ## 2020-05-25
 * Updated UEFI BIOS firmware to 1901.
@@ -70,22 +74,22 @@
 
 ## 2020-04-11
 * Added EmuVariableUefi.efi for [issue 2](https://github.com/TCattd/Hackintosh-ASUS-TUF-H370-PRO/issues/2) (Thanks @bricco1981).
-* Updated to macOS Catalina 10.15.4 (19E287).
+* Working with macOS Catalina 10.15.4 (19E287).
 
 ## 2020-03-25
-* Updated to macOS Catalina 10.15.4 (19E266).
+* Working with macOS Catalina 10.15.4 (19E266).
 
 ## 2020-01-29
-* Updated to macOS Catalina 10.15.3 (19D76).
+* Working with macOS Catalina 10.15.3 (19D76).
 
 ## 2019-12-27
 * Updated UEFI BIOS firmware to 1801.
 
 ## 2019-12-13
-* Updated to macOS Catalina 10.15.2 (19C57).
+* Working with macOS Catalina 10.15.2 (19C57).
 
 ## 2019-10-30
-* Updated to macOS Catalina 10.15.1 (19B88).
+* Working with macOS Catalina 10.15.1 (19B88).
 
 ## 2019-10-18
 * Added a custom SSDT-UIAC-ALL.aml ACPI patch to enable all USB ports.
