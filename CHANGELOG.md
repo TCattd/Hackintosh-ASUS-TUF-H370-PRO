@@ -1,4 +1,8 @@
 # Changelog
+## 2021-06-18
+* Updated OpenCore to 0.7.0
+* Working with to macOS 11.4 Big Sur (20F71)
+
 ## 2021-05-06
 * Updated OpenCore to 0.6.9
 * Working with to macOS 11.3.1 Big Sur (20E241)
