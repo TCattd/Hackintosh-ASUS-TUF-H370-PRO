@@ -1,3 +1,11 @@
+# Project no longer updated.
+Check the [changelog](https://github.com/TCattd/Hackintosh-ASUS-TUF-H370-PRO/blob/master/CHANGELOG.md) to know the last update date.
+
+Why?
+
+Wrote about the change here: [Dev Enviroment: Fury Road](https://itsaboutactitud.wordpress.com/2021/07/03/dev-enviroment-fury-road/) (spanish only).
+
+
 # Hackintosh ASUS TUF H370-Pro Gaming (WI-FI) + Intel Core i7-8700 + Gigabyte AMD Radeon RX 580 4GB
 EFI folder used on my _ASUS TUF H370-Pro Gaming (WI-FI)_ Vanilla Hackintosh build, running macOS 11.x Big Sur
 
